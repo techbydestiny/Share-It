@@ -1,0 +1,316 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* Start Of Navbar CSS*/
+.navbar-color
+{
+    background-color: #76593C;
+}
+.nav-items
+{
+    color: pink;
+}
+.nav-link{
+    color: white;
+    margin-right: 80px;
+}
+.nav-link:hover{
+    color: #DDAD3A;
+}
+.active-link
+{
+    color: #DDAD3A;
+}
+/* End Of NavBar CSS */
+
+/* START OF  HERO SLIDER CSS */
+.hero-img{
+  background-image: url("images/hero-bg.jpg"); 
+  height: 100vh; 
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  filter: brightness(0.8);
+}
+.hero-content{
+    color: white;
+}
+.hero-container
+{
+    padding-left: 20%;
+    padding-top: 10%;
+   
+}
+/* END OF HERO SLIDER CSS */
+
+/* BODY SECTION CSS */
+.about-header{
+
+    margin-top: 10%;
+    text-align: center; 
+}
+.download-section{
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(0.7);
+}
+.download-section {
+    background: linear-gradient(135deg, #6A11CB, #2575FC);
+    color: white;
+    text-align: center;
+    padding: 60px 0;
+  }
+  .download-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  .download-section p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
+  .download-section .btn {
+    margin: 10px;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    background-color: #76593C;
+  }
+
+
+/* Description styling */
+.description {
+  font-size: 14px;
+  color: whitesmoke;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.feature-icon {
+font-size: 1.5rem;
+color: #DDAD3A;
+}
+.feature-heading {
+font-weight: bold;
+font-size: 1rem; 
+}
+.feature-text {
+font-size: 0.8rem; 
+color: #6c757d;
+}
+.feature-section {
+padding: 10px 0; 
+}
+.custom-line {
+border-top: 3px solid #DDAD3A;
+width: 50px;
+margin: 0 auto;
+}
+.phone-image {
+max-width: 230px;
+margin: auto;
+}
+.features-wrapper {
+position: relative;
+}
+.features-wrapper .feature-box {
+position: absolute;
+text-align: center;
+width: 90px; 
+}
+.feature-1 { top: -3px; left: 2px; } 
+.feature-2 { top: -3px; right: 2px; }
+.feature-3 { top: 50%; left: -5px; transform: translateY(-50%); }
+.feature-4 { top: 50%; right: -5px; transform: translateY(-50%); }
+.feature-5 { bottom: -3px; left: 2px; }
+.feature-6 { bottom: -3px; right: 2px; }
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+.features-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.feature-box {
+    position: static; /* Reset absolute positioning */
+    margin-bottom: 15px; 
+}
+}
+
+  /* END OF BODY SECTION CSS */
+
+  /* FOOTER CSS */
+  .footer {
+    background-color: #76593C;
+    color: white;
+    padding: 20px 0;
+    bottom: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;  
+  }
+  .footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  .footer a:hover {
+    color: #999;
+  }
+  .social-icons a {
+    margin: 0 15px;
+  }
+  .copyright {
+    margin-bottom: 0;
+  }
+  /* END OF FOOTER CSS */
+
+  /* CONTACT PAGE CSS */
+  .contact-form-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  .form-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #343a40;
+  }
+/* END OF CONTACT PAGE CSS */
+
+
+/*Login Page  AND Create Account Page CSS*/
+
+ /* Body background color */
+.login-body {
+    background-color: #f4f4f4;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(0.8);
+}
+ /* Form container styling */
+ .login-form {
+    background-color: #76593C;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto;
+}
+/* Form container styling */
+ .create-account-form {
+    background-color: #76593C;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto;
+}
+/* Input field and button styling */
+.form-control {
+    border-radius: 50px;
+}
+
+.btn-custom {
+    background-color: #91763B;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 18px;
+}
+
+.btn-custom:hover {
+    background-color: #7b6531;
+}
+
+/* Text links */
+.text-links a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.text-links a:hover {
+    text-decoration: underline;
+}
+
+/* Font Awesome icons */
+.form-icon {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.input-group .form-control {
+    padding-left: 40px;
+}
+/* END Login Page  AND Create Account Page CSS*/
+
+
+
+/* CUSTOM FEATURE CSS */
+.btn-custom {
+  background-color: #D6A83F;
+  color: white;
+}
+.btn-custom:hover {
+  background-color: #DDAD3A;
+}
+/* END OF CUSTOM FEATURE CSS  */
+
+.upload-container {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+}
+
+.upload-button {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #ddd;
+  transition: border-color 0.3s;
+}
+
+.upload-button:hover {
+  border-color: #007bff;
+}
+
+.upload-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.hover-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-size: 14px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  border-radius: 50%;
+}
+
+.upload-button:hover .hover-overlay {
+  opacity: 1;
+}
